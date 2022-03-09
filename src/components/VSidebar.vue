@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+  <div />
 </template>
 <script>
 export default {
@@ -8,9 +8,9 @@ export default {
 
         return {
 
-        }
+        };
     }
-}
+};
 </script>
 <style>
 </style>

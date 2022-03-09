@@ -1,4 +1,4 @@
-import { createRouter,createWebHashHistory } from "vue-router";
+import { createRouter,createWebHashHistory } from 'vue-router';
 
 
 const routes = [
@@ -10,7 +10,7 @@ const routes = [
       path: '/about', 
       component: ()=>import('@/views/About.vue') 
     }   
-  ]
+  ];
 
 const router = createRouter({
     history:createWebHashHistory(),
@@ -18,4 +18,4 @@ const router = createRouter({
 });
 
 
-export default router
+export default router;
